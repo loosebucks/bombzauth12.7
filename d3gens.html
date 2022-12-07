@@ -1,0 +1,178 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Bombz Streaming</title>
+    <link rel="shortcut icon" type="image/png" href="img/bombz.ico">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">BOMBZ</h1>
+            </div>
+            <div class="menu-container">
+                
+            </div>
+           
+             
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="home.html"><i class="left-menu-icon fas fa-home"></i></a>
+        <a href="NFTcontent.html"><i class="left-menu-icon fas fa-school"></i></a>
+        <a href="Twitterspaces.html"><i class="left-menu-icon fas fa-microphone"></i></a>
+        <a href="Movies.html"><i class="left-menu-icon fas fa-film"></i></a>
+        <a href="TVshows.html"><i class="left-menu-icon fas fa-tv"></i></a>
+        <a href="Music.html"><i class="left-menu-icon fas fa-music"></i></a>
+        <a href="Gaming.html"><i class="left-menu-icon fas fa-gamepad"></i></a>
+        <a href="News.html"><i class="left-menu-icon fas fa-newspaper"></i></a>
+        <a href="Creators.html"><i class="left-menu-icon fas fa-info"></i></a>
+        <a href="login.html"><i class="left-menu-icon fas fa-user"></i></a>
+        
+        
+    </div>
+    <br>
+
+    <body>
+        <div class="container">
+        <div class="featured-content"
+                    style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/spaces.png');">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                  
+                </div>
+        <div class="container7">
+            <br>
+            <a href="https://twitter.com/D3gens" target="_blank"><h1 class="movie-list-title" align="center">D3gens</h1></a></div>
+        <div class="container7">
+
+            <img class="img3" src="img/dgf.png">
+            
+            <iframe src="https://drive.google.com/file/d/1ba5-wBuGRU4tZ6Eg2LoY_7FI-S3Uqp9d/preview" width="300" height="75" allow="autoplay"></iframe>
+        <br>
+        <br>
+        <div class="star_rating">
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <p class="current_rating" align="center">0 of 5</p>
+        </div>
+        <script>
+            const allStars = document.querySelectorAll('.star');
+            let current_rating = document.querySelector('.current_rating');
+            allStars.forEach( (star, i) => {
+                star.onclick = function () {
+                    console.log(star);
+                    let current_star_level = i + 1;
+                    current_rating.innerText = `${current_star_level} of 5`;
+
+                    allStars.forEach( (star, j) => {
+                        if( current_star_level >= j + 1)
+                        {
+                            star.innerHTML = '&#9733';
+                        }else {
+                            star.innerHTML = '&#9734';
+                        }
+                    })
+                }
+            })
+        </script>
+        <br>
+        <br>
+
+            <img class="img3" src="img/dgt.png">
+            
+            <iframe src="https://drive.google.com/file/d/1r4bGECASWxOZROBSYact26q12myLv0vm/preview" width="300" height="75" allow="autoplay"></iframe>
+        <br>
+        <br>
+        <div class="star_rating">
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <p class="current_rating" align="center">0 of 5</p>
+        </div>
+        <script>
+            const allStars = document.querySelectorAll('.star');
+            let current_rating = document.querySelector('.current_rating');
+            allStars.forEach( (star, i) => {
+                star.onclick = function () {
+                    console.log(star);
+                    let current_star_level = i + 1;
+                    current_rating.innerText = `${current_star_level} of 5`;
+
+                    allStars.forEach( (star, j) => {
+                        if( current_star_level >= j + 1)
+                        {
+                            star.innerHTML = '&#9733';
+                        }else {
+                            star.innerHTML = '&#9734';
+                        }
+                    })
+                }
+            })
+        </script>
+        <br>
+        <br>
+        
+            <img class="img3" src="img/dga.png">
+            
+            <iframe src="https://drive.google.com/file/d/1ZE4SrQIYdD7dS0apqR_Wp8ufpLwZM2xx/preview" width="300" height="75" allow="autoplay"></iframe>
+        <br>
+        <br>
+        <div class="star_rating">
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <button class="star">&#9734;</button>
+            <p class="current_rating" align="center">0 of 5</p>
+        </div>
+        <script>
+            const allStars = document.querySelectorAll('.star');
+            let current_rating = document.querySelector('.current_rating');
+            allStars.forEach( (star, i) => {
+                star.onclick = function () {
+                    console.log(star);
+                    let current_star_level = i + 1;
+                    current_rating.innerText = `${current_star_level} of 5`;
+
+                    allStars.forEach( (star, j) => {
+                        if( current_star_level >= j + 1)
+                        {
+                            star.innerHTML = '&#9733';
+                        }else {
+                            star.innerHTML = '&#9734';
+                        }
+                    })
+                }
+            })
+        </script>
+        <br>
+        <br>
+        
+        
+    </div>
+</div>
+
+    </body>

@@ -1,0 +1,77 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <title>Bombz Streaming</title>
+        <link rel="shortcut icon" type="image/png" href="img/bombz.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-signin-client_id" content="509883488913-iosuvantucpijc7jenen1n85mgr95lk4.apps.googleusercontent.com">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        
+        <div class="navbar">
+            <div class="navbar-container">
+                <div class="logo-container">
+                <div class="menu-container">
+                    <ul class="menu-list">
+                        <li class="menu-list-item active">ENTER PASSWORD TO PROCEED</li>
+                    </ul>
+                </div>
+                <div class="menu-container">
+                    
+                </div>
+               
+                </div>
+            </div>
+        </div>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            
+            
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            <div class="data">
+                <p>Name</p>
+                <p id="alert alert-success"></p>
+                <p>Profile Picture</p>
+                <img id="image" class="rounded-circle" width"100 height="100" />
+                <p>Email</p>
+                <p id="email"></p>
+                <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
+            </div>
+<!--password-->
+<br>
+        <div class="container2">
+        <form class="passform" action="home.html" onsubmit="return passcheck()">
+            <h3 align="center">Password:</h3> <input type="password" required id="pass1">
+            <input type="submit">
+        </form>
+    </div>
+<!--password-->
+
+
+        <br>
+        <br>
+        <br>
+        
+        <div class="container2">
+            
+            
+            <img width="80%" src="img/bombzindextrue.png">
+            
+        
+        
+
+        </div>
+    </body>
+</html>
